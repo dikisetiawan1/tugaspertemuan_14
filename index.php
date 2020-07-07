@@ -43,6 +43,7 @@ if ($result) :
                     <a href="hapus_barang.php?id=<?php echo $row['id_barang']; ?>">Hapus</a>
                 </td>
             </tr>
+            <?php $i++ ?>
         <?php endwhile; ?>
     </table>
 <?php
